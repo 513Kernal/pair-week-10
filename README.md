@@ -21,21 +21,21 @@ Once the student finishes all ten questions, they'll see a summary screen. This 
 ## Application requirements
 
 - The problem set must contain ten problems but should be flexible enough to change in the future.
-- The problems must be randomly generated.
-  - The left and right operands must be between 0 and 9.
-  - The operation must be multiplication.
-- When a student is presented with a problem, show four possible answers: one correct answer and three randomly generated answers.
-  - Allow them to click on the `<li>` to answer the problem.
-  - Consider this: if the left and right operands are between 0 and 9, what is the max possible answer?
-- When a student answers a question, the application must:
-  - Move to the next problem.
-  - Update the current problem number.
-  - Update the score, if needed.
-- When a student answers the last question, hide any elements with the class `show-hide` to present the summary screen.
-- When a student clicks "Start Over", the application must:
-  - Generate a new problem set.
-  - Reset the current problem.
-  - Reset the score.
+^^^- The problems must be randomly generated.
+  ^^^- The left and right operands must be between 0 and 9.
+  ^^^- The operation must be multiplication.
+^^^- When a student is presented with a problem, show four possible answers: one correct answer and three randomly generated answers.
+  ^^^- Allow them to click on the `<li>` to answer the problem.
+  ^^^- Consider this: if the left and right operands are between 0 and 9, what is the max possible answer?
+^^^- When a student answers a question, the application must:
+  ^^^- Move to the next problem.
+  ^^^- Update the current problem number.
+  ^^^- Update the score, if needed.
+^^^- When a student answers the last question, hide any elements with the class `show-hide` to present the summary screen.
+^^^- When a student clicks "Start Over", the application must:
+  ^^^- Generate a new problem set.
+  ^^^- Reset the current problem.
+  ^^^- Reset the score.
 
 ### Utility functions
 
